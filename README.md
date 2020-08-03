@@ -44,7 +44,7 @@ You might already have some of these.
 ### Movie making folder
 
 Contains folders set up for the various programs on this list, scripts to process the footage, some config files, and my modified ReShade depth shader.  
-Download the [tf2-moviemaking]() folder and extract it somewhere (preferably not just desktop). All file paths prefixed with `\` in this guide begin in this folder.
+Download my [tf2-moviemaking](https://github.com/juniorsgithub/tf2-how-to-record-depth/releases/latest) folder and extract it somewhere (preferably not just desktop). All file paths prefixed with `\` in this guide begin in this folder.
 
 Once extracted, open `\tf2 custom files\cfg\sdr.cfg`, and change `sdr_outputdir` to where you want your recorded videos to go.
 
