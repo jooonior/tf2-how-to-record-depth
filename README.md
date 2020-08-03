@@ -10,28 +10,27 @@ Many problems had to be solved on the path from this simple concept to a working
 <table><tbody><tr>
 <td><details><summary>Table of Contents</summary>
 
-- [How to record depth in TF2](#how-to-record-depth-in-tf2)
-	- [Download and Install Software](#download-and-install-software)
-		- [Movie making folder](#movie-making-folder)
-		- [ReShade](#reshade)
-		- [Half-Life Advanced Effects (HLAE)](#half-life-advanced-effects-hlae)
-		- [Lagarith Lossless Video Codec](#lagarith-lossless-video-codec)
-		- [MSI Afterburner and RTSS](#msi-afterburner-and-rtss)
-		- [StatusSpec plugin for TF2](#statusspec-plugin-for-tf2)
-		- [SourceDemoRender](#sourcedemorender)
-		- [ffmpeg](#ffmpeg)
-	- [Set Things Up](#set-things-up)
-		- [Set up HLAE](#set-up-hlae)
-		- [Set up ReShade](#set-up-reshade)
-		- [Test Afterburner](#test-afterburner)
-	- [Prepare the Recording](#prepare-the-recording)
-		- [VDM](#vdm)
-		- [Commands](#commands)
-		- [Sanity Check](#sanity-check)
-		- [Set Resolution](#set-resolution)
-	- [Record!](#record)
-	- [Align the Footage](#align-the-footage)
-	- [Clean Up](#clean-up)
+- [Download and Install Software](#download-and-install-software)
+	- [Movie making folder](#movie-making-folder)
+	- [ReShade](#reshade)
+	- [Half-Life Advanced Effects (HLAE)](#half-life-advanced-effects-hlae)
+	- [Lagarith Lossless Video Codec](#lagarith-lossless-video-codec)
+	- [MSI Afterburner and RTSS](#msi-afterburner-and-rtss)
+	- [StatusSpec plugin for TF2](#statusspec-plugin-for-tf2)
+	- [SourceDemoRender](#sourcedemorender)
+	- [ffmpeg](#ffmpeg)
+- [Set Things Up](#set-things-up)
+	- [Set up HLAE](#set-up-hlae)
+	- [Set up ReShade](#set-up-reshade)
+	- [Test Afterburner](#test-afterburner)
+- [Prepare the Recording](#prepare-the-recording)
+	- [VDM](#vdm)
+	- [Commands](#commands)
+	- [Sanity Check](#sanity-check)
+	- [Set Resolution](#set-resolution)
+- [Record!](#record)
+- [Align the Footage](#align-the-footage)
+- [Clean Up](#clean-up)
 </details></td>
 </tr></tbody></table>
 
@@ -156,7 +155,7 @@ Second, open `\HLAE\HLAE.exe`. Navigate to **Tools** > **Developer** > **Custom 
 When all set, hit **OK** and TF2 will launch.
 
 <table><tr>
-<td><b>Tip</B>: Once you have HLAE setup, use <code>tf2-moviemaking\HLAE\startTF2.cmd</code> (or a shortcut to it) to launch TF2 though HLAE directly, without having to go through all the HLAE menus.</td>
+<td><b>Tip</B>: Once you have HLAE setup, use <code>\HLAE\startTF2.cmd</code> (or a shortcut to it) to launch TF2 though HLAE directly, without having to go through all the HLAE menus.</td>
 </tr></table>
 
 ### Set up ReShade
@@ -228,8 +227,8 @@ Once you're sure everything is set up properly, continue.
 
 ### Set Resolution
 
-To get smooth image even without anti-aliasing, you should record at a higher resolution, then downscale the image to "anti-alias" it yourself. I recommend doubling the resolution, so for a 1080 video, record at 4k. Use the command `statusspec_resolutions_set 3840 2160` (first number is width, second height).  
-This will make the window overflow your screen (unless you have a 4k monitor), so before doing it &#10071;**move the console to the top left corner of the window**&#10071;, that way you don't lose it. Also do this with demoUI if you plan to use that.
+To get smooth image even without anti-aliasing, you should record at a higher resolution, then downscale the image to "anti-alias" it yourself. I recommend doubling the resolution, so for a 1080 video, record at 4K. Use the command `statusspec_resolutions_set 3840 2160` (first number is width, second height).  
+This will make the window overflow your screen (unless you have a 4K monitor), so before doing it &#10071;**move the console to the top left corner of the window**&#10071;, that way you don't lose it. Also do this with demoUI if you plan to use that.
 
 ## Record!
 
