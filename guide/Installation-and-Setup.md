@@ -40,10 +40,10 @@ Next, [download ReShade basic shaders](https://github.com/crosire/reshade-shader
 
 <table>
 <td><div style="text-align:center">
-<img src="https://raw.githubusercontent.com/juniorsgithub/tf2-how-to-record-depth/master/guide/images/ReShade-installer.png"/>
+<img src="https://raw.githubusercontent.com/juniorsgithub/tf2-how-to-record-depth/master/guide/images/exaple-world.png"/>
 </td></div>
 <td><div style="text-align:center">
-<img src="https://raw.githubusercontent.com/juniorsgithub/tf2-how-to-record-depth/master/guide/images/ReShade-extracted.png"/>
+<img src="https://raw.githubusercontent.com/juniorsgithub/tf2-how-to-record-depth/master/guide/images/exaple-depth.png"/>
 </td></div>
 </table>
 
