@@ -38,17 +38,14 @@ Run it, hold <kbd>CTRL</kbd> and click the _Click here to select a game and mana
 
 Next, [download ReShade basic shaders](https://github.com/crosire/reshade-shaders), open the archive, and extract `reshade-shaders-master\Shaders\ReShade.fxh`  to `\ReShade\Shaders`. If you want to get more shaders and textures you can, but more shaders means longer launch time.
 
-<table><tbody><tr>
+<table>
 <td><div style="text-align:center">
 <img src="https://raw.githubusercontent.com/juniorsgithub/tf2-how-to-record-depth/master/guide/images/ReShade-installer.png"/>
-<p align="center"><sub><kbd>CTRL</kbd> + click</sub></p>
 </td></div>
 <td><div style="text-align:center">
 <img src="https://raw.githubusercontent.com/juniorsgithub/tf2-how-to-record-depth/master/guide/images/ReShade-extracted.png"/>
-<p align="center"><sub>ReShade extracted</p>
 </td></div>
-</tr></tbody></table>
-
+</table>
 
 ## Half-Life Advanced Effects (HLAE)
 
