@@ -21,16 +21,16 @@
 
 </details>
 
-# Download and Install
+## Download and Install
 
-## Movie Making Folder
+### Movie Making Folder
 
 Contains folders set up for the various programs on this list, scripts to help with ffmpeg, some config files, and my modified ReShade DisplayDepth shader.  
 [Download from here](https://github.com/juniorsgithub/tf2-how-to-record-depth/releases/latest) and extract somewhere (preferably not just desktop).  
 
 &#128204; All file paths in this guide prefixed with `\` begin in this folder.
 
-## ReShade
+### ReShade
 
 Post-processing injector that will get us the depth information.  
 [Download  the installer](https://reshade.me/) and save it in the `\ReShade` folder.  
@@ -49,43 +49,43 @@ Next, [download ReShade basic shaders](https://github.com/crosire/reshade-shader
 </td></div>
 </tr></table>
 
-## Half-Life Advanced Effects (HLAE)
+### Half-Life Advanced Effects (HLAE)
 
 A Source engine movie making tools. Can do many things, but here it will just inject ReShade for us.  
 [Head to their website](https://www.advancedfx.org/download/) and download the **zipped version**. Extract to `\HLAE`.  
 
-## Lagarith Lossless Video Codec
+### Lagarith Lossless Video Codec
 
 Lossless video codec that will allow us to record at maximum quality while staying at reasonable file sizes.  
 [Download](https://lags.leetcode.net/codec.html)  and run the installer.
 
-## MSI Afterburner and RTSS
+### MSI Afterburner and RTSS
 
 It is important that the recording software captures every frame rendered. Afterburner can record at 120 FPS and prevent the game from going above that.  
 If you don't have it already, [get it here](https://www.msi.com/page/afterburner) (downloads are at the bottom of the page). In the installer make sure _Rivatuner Statistics Server_ is checked.
 
-## StatusSpec plugin for TF2
+### StatusSpec plugin for TF2
 
 In order for ReShade to work you have to disable anti-aliasing. To get around this, we'll record at double resolution, then downscale to get a nice smooth image. TF2 doesn't let you go above native resolution, this plugin changes that.  
 Download from [TFTV thread here](https://www.teamfortress.tv/17291/sourceres/?page=2#32), open the archive, and extract the `StatusSpec\addons` folder to `\tf2 files`.
 
 Alternatives include having a 4K monitor or some fiddling with your GPU driver.
 
-## SourceDemoRender
+### SourceDemoRender
 
 A plugin that lets you record with `startmovie` straight into uncompressed video. No more gigabytes of TGAs.  
 [Download version 19](https://github.com/crashfort/SourceDemoRender/releases/tag/19), open it, and extract `SDR\SourceDemoRender.Multiplayer.dll` to `\tf2 files\SDR`.
 
 Next, find your `Team Fortress 2\tf` folder, make a new folder called `SDR` in it, and move `\tf2 files\SDR\gameconfig.json` there. This file just contains some SDR data and will not affect your TF2 installation in any way.
 
-## ffmpeg
+### ffmpeg
 
 A very powerful command line video convertor. I've included batch scripts that will handle the converting for you.  
 [Download from here](https://ffmpeg.zeranoe.com/builds/) (keep options as they are just hit download), open the archive, and extract `ffmpeg.exe`, `ffplay.exe`, and `ffprobe.exe` from `ffmpeg-whatever-version-win64-static\bin` to `\video processing`.
 
-# Setup
+## Setup
 
-## Afterburner Capture Settings
+### Afterburner Capture Settings
 
 Open Afterburner, click the <kbd>&#x2699;</kbd> icon to open up settings. 7th tab should be called **Video capture**, in there:
 - Choose a **video capture** hotkey
@@ -121,7 +121,7 @@ Click the <kbd>...</kbd> button, in the menu that pops up:
 </tr>
 </table>
 
-## HLAE Custom Loader
+### HLAE Custom Loader
 
 Start `\HLAE\HLAE.exe` and navigate to **Tools** > **Developer** > **Custom Loader**, in there:
 - set **ProgramPath** to TF2's `hl2.exe`
@@ -142,7 +142,7 @@ Start `\HLAE\HLAE.exe` and navigate to **Tools** > **Developer** > **Custom Load
 
 When all set, press **OK** and TF2 will launch. When the game loads try typing `sdr` and `statusspec` into console to confirm both plugins have loaded successfully.
 
-## ReShade
+### ReShade
 
 in order for ReShade to work, you need to disable anti-aliasing (`mat_antialias 0`) and UI. For the latter a keybind is preferred (`bind F9 "toggle r_drawvgui"`). Once you have these, load up a map so you can test things out.
 
@@ -156,7 +156,7 @@ If your whole screen turned white, you probably forgot to turn off either UI or 
 
 Try recording a short clip with Afterburner to confirm that it works. There is no notification if you're recording or not, so check your videos folder to find out. When done, close TF2.
 
-## Finishing Touches
+### Finishing Touches
 
 Open `\tf2 files\cfg\sdr.cfg` in a text editor, and change `sdr_outputdir` to where you want your recorded videos to go. I recommend to choose the same folder you set in Afterburner.
 
