@@ -44,6 +44,9 @@ If you have any suggestions on how to improve this process, please do share.
 ---
 # Changelog
 
+### 7. 8. 2020
+- Fixed crash on `startmovie`
+
 ### 5. 8. 2020
 - Restructured the guide
 - Fixed color loss during video encoding
