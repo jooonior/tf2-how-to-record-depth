@@ -160,7 +160,7 @@ I haven't do this, so just add an audio source and see if it works.
 3. Once you have what you came for, stop recording.
 
 You can check what you recorded. Drag and drop the video onto
-`\video processing\play.cmd` to open it in _ffplay_
+`\tools\play.cmd` to open it in _ffplay_
 (a very fast player).  
 Note that if the FPS and resolution is too high, it might not be able to play
 it at full speed.
@@ -169,7 +169,7 @@ it at full speed.
 
 To get your world and depth layers as two separate files,
 drag and drop the recorded video onto
-`\video processing\separate-layers.cmd`.
+`\tools\separate-layers.cmd`.
 
 It might take a while, but after it's done, you'll find
 the two layers next to the original file:

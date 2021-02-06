@@ -59,7 +59,7 @@ back to normal.
 ## Processing the Footage
 
 Ffmpeg can remove consecutive duplicate frames. Drag and drop the outcome
-of the recording onto `\video processing\separate-layers+filter-frames.cmd`
+of the recording onto `\tools\separate-layers+filter-frames.cmd`
 to get the final two layers.  
 You'll be asked for a framerate, enter **the same number** you set `host_framerate`
 to when recording.
