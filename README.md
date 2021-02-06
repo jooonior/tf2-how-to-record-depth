@@ -5,12 +5,14 @@ which can be then used in movie making.
 As far as I'm aware the only alternative way of doing this
 is porting demos to Source Film Maker.
 
+[TFTV thread](https://www.teamfortress.tv/56706/how-to-record-depth)
+
 <table>
 <td><div style="text-align:center">
-<img src="https://raw.githubusercontent.com/juniorsgithub/tf2-how-to-record-depth/master/guide/images/exaple-world.png"/>
+<img src="guide/images/exaple-world.png"/>
 </td></div>
 <td><div style="text-align:center">
-<img src="https://raw.githubusercontent.com/juniorsgithub/tf2-how-to-record-depth/master/guide/images/exaple-depth.png"/>
+<img src="guide/images/exaple-depth.png"/>
 </td></div>
 </table>
 
@@ -82,9 +84,12 @@ If you have any suggestions on how to improve this process, please do share.
 ## Changelog
 
 ### 6. 2. 2021
-- New _ReShade_ shader
-- Ditched _SourceDemoRender_ and `startmovie`
-- Output encoded with UTVideo - fixed RGB loss again
+- Rewrote the guide
+- New ReShade shader
+- Ditched _SourceDemoRender_, VDMs, `startmovie`
+- Now two ways to record
+- Output encoded with UTVideo - fixed color loss again
+- ffmpeg and ffplay included in the download
 
 ### 7. 8. 2020
 - Fixed crash on `startmovie`
