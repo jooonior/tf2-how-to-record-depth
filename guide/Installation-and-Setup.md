@@ -26,7 +26,7 @@
 ### Movie Making Folder
 
 Contains folders set up for the various programs on this list, scripts to help with ffmpeg, some config files, and my modified ReShade DisplayDepth shader.  
-[Download from here](https://github.com/juniorsgithub/tf2-how-to-record-depth/releases/latest) and extract somewhere (preferably not just desktop).  
+[Download from here](https://github.com/juniorsgithub/tf2-how-to-record-depth/releases/tag/v1.0) and extract somewhere (preferably not just desktop).  
 
 &#128204; All file paths in this guide prefixed with `\` begin in this folder.
 
