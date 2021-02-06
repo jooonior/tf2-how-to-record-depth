@@ -31,6 +31,11 @@ and extract somewhere (preferably not just desktop).
 
 &#128204; All file paths in this guide prefixed with `\` begin in this folder.
 
+I've decided to include ffmpeg and ffplay in the download
+because officially only source code is provided. If you want to get
+newer versions, see the [official website](https://ffmpeg.org/), they link places
+where you can download it.
+
 ### ReShade
 
 Post-processing injector that lets us modify the image output of the game.  
