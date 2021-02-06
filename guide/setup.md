@@ -51,11 +51,11 @@ but more shaders means longer launch time.
 
 <table><tr>
 <td><div style="text-align:center">
-<img src="https://raw.githubusercontent.com/juniorsgithub/tf2-how-to-record-depth/master/guide/images/ReShade-installer.png" width="400"/>
+<img src="images/ReShade-installer.png" width="400"/>
 <p align="center"><sub><kbd>CTRL</kbd> + click</sub></p>
 </td></div>
 <td><div style="text-align:center">
-<img src="https://raw.githubusercontent.com/juniorsgithub/tf2-how-to-record-depth/master/guide/images/ReShade-extracted.png" width="400"/>
+<img src="images/ReShade-extracted.png" width="400"/>
 <p align="center"><sub>ReShade extracted</p>
 </td></div>
 </tr></table>
