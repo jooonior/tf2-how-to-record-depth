@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////
 // Modification of DisplayDepth.fx by junior.
 // Intended for capturing the depth buffer 
-// to use it in video editing.
+// for use in video editing.
 ///////////////////////////////////////////////////////
 
 #include "ReShade.fxh"
