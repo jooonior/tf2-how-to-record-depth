@@ -1,7 +1,7 @@
 # Recording and Processing the Output
 
-<table><tbody><tr>
-<td><details><summary>Table of Contents</summary>
+<table><tr><td>
+<details><summary>Table of Contents</summary>
 
 - [Recording and Processing the Output](#recording-and-processing-the-output)
 	- [Prepare the Recording](#prepare-the-recording)
@@ -17,7 +17,8 @@
 	- [Tips](#tips)
 
 </details>
-
+</td></tr></table>
+	
 ## Prepare the Recording
 
 ### Launch TF2
@@ -92,6 +93,7 @@ depth information you should stick to grayscale. If you configure it correctly
 you will get more than enough steps for things like depth of field.
 
 <details><summary>How RGB depth works</summary>
+	
 The standard RGB format has 24 bits of information, 8 for each channel.
 If we represent the depth as a 24 bit integer (0 being the closest
 and it's max value being the furthest), we can then split it into three
@@ -105,12 +107,6 @@ depth = (red * 256^2 + green * 256 + blue) / (256^3 - 1)
 I use a [plugin called tl_math](https://github.com/crazylafo/AE_tl_math) to do this
 in After Effects. If you edit with something else, you're on your own.
 
-<table>
-<td><div style="text-align:center">
-<img src="images/depth-fx-example.png"/>
-<p><sub>Upward + full RGB depth + After Effects + tl_math</sub></p>
-</td></div>
-</table>
 </details>
 
 ## Recording
@@ -151,7 +147,7 @@ recording framerate limit, or in-game `fps_max`. All I can say is that it
 works without it.
 
 Also since the demo plays in real time, you can grab the game audio as well.
-I haven't do this, so just add an audio source and see if it works.
+I haven't tried this, so just add an audio source and see if it works.
 
 ### Record
 
@@ -159,7 +155,7 @@ I haven't do this, so just add an audio source and see if it works.
 2. Enable ReShade, hide UI, start recording.
 3. Once you have what you came for, stop recording.
 
-You can check what you recorded. Drag and drop the video onto
+You can now check what you have recorded. Drag and drop the video onto
 `\tools\play.cmd` to open it in _ffplay_
 (a very fast player).  
 Note that if the FPS and resolution is too high, it might not be able to play
@@ -178,7 +174,7 @@ the two layers next to the original file:
 
 The original recording is no longer needed, you can delete it.
 
-Both layers full RGB lossless material, compressed with
+Both layers are full RGB lossless material, compressed with
 the UT Video codec. I am able to import them into
 both Premiere and After Effects. If it doesn't work with
 your software, feel free to open an issue.
