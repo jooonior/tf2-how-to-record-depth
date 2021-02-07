@@ -16,8 +16,8 @@ is porting demos to Source Film Maker.
 </td></div>
 </table>
 
-<table><tbody><tr>
-<td><details><summary>Table of Contents</summary>
+<table><tr><td>
+<details><summary>Table of Contents</summary>
 
 - [Recording depth in TF2](#recording-depth-in-tf2)
 	- [Introduction](#introduction)
@@ -34,6 +34,7 @@ is porting demos to Source Film Maker.
 		- [3. 8. 2020](#3-8-2020)
 
 </details>
+</td></tr></table>
 
 ## Introduction
 
@@ -41,9 +42,9 @@ In TF2, things like character animations and ragdolls are influenced by RNG.
 This means that in order for your world and depth to line up,
 you have to record both at the same time, in a single pass.
 
-I have modified the standard _ReShade_ _DisplayDepth_ shader to show both
+I have modified the standard ReShade _DisplayDepth_ shader to show both
 normal image and depth buffer side by side.
-This image can then be recorded. Some extra tricks are used to control
+This can then be recorded using game capture software. Some extra tricks are used to control
 the resolution and framerate of the footage.
 
 ### Required Software
@@ -60,13 +61,13 @@ Some can be substituted, but I suggest you use these to avoid any unnecessary is
 
 ### Notes
 
-Lossless video takes up quite a bit of space.
-You'll probably want to have around 100 GB of free space to work with. 
+- Lossless video takes up quite a bit of space.
+  You'll probably want to have around 100 GB of free space to work with. 
 
-I edit in Premiere and After Effects. If you use something else,
-you may have to re-encode the footage to make it compatible.
+- I edit in Premiere and After Effects. If you use something else,
+  you may have to re-encode the footage to make it compatible.
 
-If you have any suggestions on how to improve this process, please do share.
+- If you have any suggestions on how to improve this process, please do share.
 
 ## The Guide
 
