@@ -1,7 +1,7 @@
 # Installation and Setup
 
-<table><tbody><tr>
-<td><details><summary>Table of Contents</summary>
+<table><tr><td>
+<details><summary>Table of Contents</summary>
 
 - [Installation and Setup](#installation-and-setup)
 	- [Download and Install](#download-and-install)
@@ -19,6 +19,7 @@
 		- [Finishing Touches](#finishing-touches)
 
 </details>
+</td></tr></table>
 
 ## Download and Install
 
