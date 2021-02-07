@@ -186,4 +186,4 @@ your software, feel free to open an issue.
 	flash in the top left of it's graph area.
 
 If you want, you can now go onto the
-[more advanced recording method](guide/advanced-recording.md).
+[more advanced recording method](advanced-recording.md).
